@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="계층구조">
+      <UniqueIdentifier>{1596e626-602a-4a12-8ea5-4ee6e6d09c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="모듈">
+      <UniqueIdentifier>{5b5a2347-7c18-4bbe-83b9-73fbc2fbfe2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DynamicRouterRIP.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicRouterRIPDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IPLayer.h">
+      <Filter>계층구조</Filter>
+    </ClInclude>
+    <ClInclude Include="NILayer.h">
+      <Filter>계층구조</Filter>
+    </ClInclude>
+    <ClInclude Include="EthernetLayer.h">
+      <Filter>계층구조</Filter>
+    </ClInclude>
+    <ClInclude Include="ARPLayer.h">
+      <Filter>계층구조</Filter>
+    </ClInclude>
+    <ClInclude Include="ARPTable.h">
+      <Filter>모듈</Filter>
+    </ClInclude>
+    <ClInclude Include="RouterTable.h">
+      <Filter>모듈</Filter>
+    </ClInclude>
+    <ClInclude Include="ICMP.h">
+      <Filter>모듈</Filter>
+    </ClInclude>
+    <ClInclude Include="RIPLayer.h">
+      <Filter>계층구조</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPLayer.h">
+      <Filter>계층구조</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DynamicRouterRIP.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicRouterRIPDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EthernetLayer.cpp">
+      <Filter>계층구조</Filter>
+    </ClCompile>
+    <ClCompile Include="IPLayer.cpp">
+      <Filter>계층구조</Filter>
+    </ClCompile>
+    <ClCompile Include="NILayer.cpp">
+      <Filter>계층구조</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLayer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ARPLayer.cpp">
+      <Filter>계층구조</Filter>
+    </ClCompile>
+    <ClCompile Include="ARPTable.cpp">
+      <Filter>모듈</Filter>
+    </ClCompile>
+    <ClCompile Include="RouterTable.cpp">
+      <Filter>모듈</Filter>
+    </ClCompile>
+    <ClCompile Include="ICMP.cpp">
+      <Filter>모듈</Filter>
+    </ClCompile>
+    <ClCompile Include="RIPLayer.cpp">
+      <Filter>계층구조</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPLayer.cpp">
+      <Filter>계층구조</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DynamicRouterRIP.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DynamicRouterRIP.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DynamicRouterRIP.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
